@@ -1,3 +1,7 @@
+#ifdef NDEBUG
+   #undef NDEBUG
+   #endif
+   #include <assert.h>
 /**
  * @file    test_baremetal_drivers.c
  * @author  Yigit Cakirdogan
